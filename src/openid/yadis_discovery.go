@@ -2,10 +2,10 @@ package openid
 
 import (
   "errors"
-  "html"
   "io"
   "io/ioutil"
   "strings"
+  "code.google.com/p/go.net/html"
 )
 
 var yadisHeaders = map[string]string{

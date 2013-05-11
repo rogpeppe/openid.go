@@ -2,8 +2,8 @@ package openid
 
 import (
   "errors"
-  "html"
   "io"
+  "code.google.com/p/go.net/html"
 )
 
 func htmlDiscovery(id string, getter httpGetter) (opEndpoint, opLocalId, claimedId string, err error) {
