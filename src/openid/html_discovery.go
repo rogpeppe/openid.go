@@ -2,7 +2,7 @@ package openid
 
 import (
   "errors"
-  "exp/html"
+  "html"
   "io"
 )
 
