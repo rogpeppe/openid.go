@@ -57,7 +57,7 @@ func verify(uri string, cache DiscoveryCache, getter httpGetter, nonceStore Nonc
 	m["user"] = values.Get("openid.claimed_id")
 	m["nick"] = values.Get("openid.sreg.nickname")
 	m["timezone"] = values.Get("openid.sreg.timezone")
-	m["fullanem"] = values.Get("openid.sreg.fullanem")
+	m["fullname"] = values.Get("openid.sreg.fullname")
 	m["email"] = values.Get("openid.sreg.email")
 	m["teams"] = values.Get("openid.lp.is_member")
 	return m, nil
