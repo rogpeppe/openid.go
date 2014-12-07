@@ -1,10 +1,11 @@
 package main
 
 import (
-	"github.com/kushaldas/openid.go/src/openid"
 	"html/template"
 	"log"
 	"net/http"
+
+	"github.com/kushaldas/openid.go/src/openid"
 )
 
 const dataDir = "./"
